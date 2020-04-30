@@ -69,7 +69,7 @@ if PACKAGE_pcap-dnsproxy
 		  We recommend to keep it as-is.
 	config PCAP_DNSPROXY_LISTENPORT
 		int "Listen Port, should NOT be 53"
-		default 5353
+		default 5335
 		help
 		  You can customize the listen port of Pcap_DNSProxy.
 		  Note that you should NOT set the value to 53, which
